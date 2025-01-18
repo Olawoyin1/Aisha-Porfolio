@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+*{
+  box-sizing: border-box !important; 
+  padding: 0 !important;
+  list-style-type: none;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+  /* border: 1px solid red; */
+}
+
+
+.hero > *{
+  font-family: "Bowlby One SC", serif;
+  
+}
+
+.sc {
+  
+  font-family: "Bowlby One SC", serif;
+}
+
+.me > *{
+  font-family: "Bowlby One", serif;
+  font-weight: 200;
+  
+}
+
+.main-header{
+  background-image: url('../public/Images/header.jpg');
+  /* background-position: center; */
+  background-position: center ;
+  background-size: cover;
+  /* background-attachment: fixed;  */
+  background-repeat: no-repeat;
+  background-color: #b3b2b6;
+  background-blend-mode: multiply;
+  
+}
+
+.main-header{
+  position: relative;
+}
+
+.main-header::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.img{
+  max-width: 100%;
+}
+
+button{
+  border: none !important;
+  outline: none !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  padding: 10px !important;
+  background-color: #ff4500;
+}
+
+small{
+  font-size: 12px !important;
+}
+
+h1,h2,h3,h4,h5,h6,strong,small,span{
+  margin: 0 !important;
+  
+}
+
+.container2{
+  width: 80%;
+  margin: 0 auto !important;
+}
+
+body{
+  
+  font-family: "Bowlby One", serif !important;
+  color: #212529;
+}
+
+.dark{
+  background-color: #121212 !important;
+  color: #FAFAFA;
+  
+}
+
+.dark a{
+  color: #ffffff !important;
+
+}
+
+.dark #contact a{
+  color: #333333 !important;
+}
+
+.dark small{
+  color: #333333;
+}
+
+img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.dark input,
+.dark textarea{
+  border-color: #FAFAFA !important;
+}
+
+p{
+  font-size: 14px !important;
+  margin: 0 !important;
+}
+
+li {
+  font-size: 14px !important;
+  margin: 0 !important;
+}
+
+a {
+  color: #333333 !important;
+}
+
+.header{
+  height: 70px;
+}
+
+.hero{
+  min-height: 87vh;
+  /* width: 400px; */
+  max-width: 100%;
+  padding: 1rem;
+  
+}
+
+
+.about-img{
+  object-fit: contain;
+  height: fit-content;
+  border-radius: 1rem;
+  overflow: hidden !important;
+}
+
+
+
+
+.works{
+  background-color: #ff4500;
+  color: #ffffff !important;
+  font-size: 14.9px;
+  padding: 1.1rem !important;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  display: inline-flex;
+}
+
+
+
+
+.contact-form input, textarea {
+  border: 1px solid #333333;
+  border-radius: 1rem;
+  outline: none;
+  padding: 1rem !important;
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-size: 14px ;
+  font-family: 'Montserrat';
+}
+
+textarea::placeholder {
+  font-size: 14px !important;
+  font-family: 'Montserrat';
+}
+
+textarea{
+  height: 100px;
+  resize: none;
+
+}
+
+
+
+/* Certificate styles */
+.my-cert {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.cert-image{
+  max-width: 400px;
+  
+}
+
+
+
+.certificate {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.certificate-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.cert-info h4 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cert-info small {
+  color: #555;
+}
+
+/* Modal styles */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: #ffffff !important;
+}
+
+.modal-content {
+  position: relative;
+  padding: 20px !important;
+  padding-top: 3rem;
+  background-color: #f2f2f2 !important;
+  border-radius: 10px !important;
+  width: fit-content;
+  max-width: 60%;
+  color: #333 !important;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-image {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.modal-title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-description {
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+/* Close button styles */
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+
+.about-section {
+  padding: 2rem 0;
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sec-header {
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.text-bold {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.about-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 992px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .about-img {
+    margin-bottom: 1.5rem;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+  .hero{
+    min-height: 87vh;
+    /* width: 100%; */
+    
+  } 
+  .container{
+  width: 90% !important;
+    
+  }
+
+  /* Modal styles */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: #ffffff !important;
+}
+
+.modal-content {
+  position: relative;
+  padding: 10px !important;
+  background-color: #f2f2f2 !important;
+  border-radius: 10px !important;
+  width: fit-content;
+  max-width: 90%;
+  color: #333 !important;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+}
