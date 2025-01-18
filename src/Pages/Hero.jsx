@@ -195,7 +195,7 @@ const Hero = () => {
           HEY THERE!
         </motion.h4>
         <motion.h1
-          className="text-center fw-bolder text-sm-start"
+          className="text-center text-sm-start"
           variants={textVariants}
           custom={1} // Delay index
         >
