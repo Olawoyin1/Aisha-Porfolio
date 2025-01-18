@@ -26,7 +26,7 @@ Feel free to reach out—I’d love to connect! 😊`;
         <motion.div
           initial="initial"
           animate="animate"
-          className="row m-0"
+          className="d-flex flex-column flex-lg-row flex-column-reverse m-0"
         >
           
           <motion.div

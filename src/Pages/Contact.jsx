@@ -102,13 +102,13 @@ const Contact = () => {
                     </div>
                     <div className="box rounded shadow-sm bg-white text-center d-flex flex-column align-items-center justify-content-center gap-2 p-2 p-lg-3 mb-4">
                         <RiMailSendLine size={20} />    
-                        <h6 className='text-bold'>Email</h6>
+                        <h6 className='fw-bold'>Email</h6>
                         <small>azeezaduke222@gmail.com</small>
                         <a className='text-muted' href="mailto:azeezaduke222@gmail.com">Write Me <IoIosArrowRoundForward /></a>
                     </div>
                     <div className="box rounded shadow-sm bg-white text-center d-flex flex-column align-items-center justify-content-center gap-2 p-2 p-lg-3">
                         <FaWhatsapp size={20}/>   
-                        <h6 className='text-bold'>Whatsapp</h6>
+                        <h6 className='fw-bold'>Whatsapp</h6>
                         <small>+234-816-802-8145</small>
                         <a className='text-muted' href="HTTPS://wa.me/2348168028145">Write Me <IoIosArrowRoundForward /></a>
                     </div>

@@ -76,7 +76,7 @@ const Certificate = () => {
               alt={selectedCert.certificate}
               className="modal-image"
             />
-            <h4 className="modal-title">{selectedCert.certificate}</h4>
+            <h5 className="modal-title">{selectedCert.certificate}</h5>
             <p className="modal-description">{selectedCert.description}</p>
           </motion.div>
         </motion.div>

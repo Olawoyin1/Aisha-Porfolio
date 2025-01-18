@@ -331,7 +331,7 @@ textarea{
   border-radius: 8px;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .row {
     flex-direction: column-reverse;
   }
@@ -339,7 +339,7 @@ textarea{
     margin-bottom: 1.5rem;
   }
 
-}
+} */
 
 
 
