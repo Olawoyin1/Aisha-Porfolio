@@ -4,12 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
 
 *{
-  box-sizing: border-box !important; 
+  /* box-sizing: border-box !important;  */
   padding: 0 !important;
   list-style-type: none;
   text-decoration: none !important;
   scroll-behavior: smooth;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 
@@ -383,4 +383,11 @@ textarea{
 
 
 
+}
+
+
+@media (max-width: 500px){
+  .container,.container2{
+    width: 94%;
+  }
 }

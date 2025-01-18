@@ -182,18 +182,20 @@ const Hero = () => {
   return (
     <div className="hero-container d-flex align-items-center justify-content-center">
       <motion.div
-        className="hero d-flex align-items-start gap-3 flex-column justify-content-center"
+        className="hero d-flex align-items-center align-items-sm-start gap-3 flex-column justify-content-center"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
         <motion.h4
+          className="text-center text-sm-start"
           variants={textVariants}
           custom={0} // Delay index
         >
           HEY THERE!
         </motion.h4>
         <motion.h1
+          className="text-center fw-bolder text-sm-start"
           variants={textVariants}
           custom={1} // Delay index
         >
